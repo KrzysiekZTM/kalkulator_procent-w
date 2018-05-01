@@ -1,0 +1,15 @@
+$white: #ffffff;
+$blue: #279AF1;
+$turq: #23B5D3;
+$light_gray: #F7F7FF;
+$dark_gray: #070600;
+$red: #EA526F;
+
+$margin-class-slug: mb !default;
+
+@for $i from 1 through 100{
+	.#{$margin-class-slug}-#{$i}{
+		margin-bottom: $i
+	}
+}
+	

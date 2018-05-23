@@ -1,5 +1,5 @@
 <!doctype>
-<html ng-app>
+<html>
 	<head>
 		<title>Internetowy kalkulator procentów, walut, VAT</title>
 	  	<meta charset="UTF-8">
@@ -17,27 +17,27 @@
 	</head>
 	<body>
 		
-		<div class="container-fluid b_no-padding">
-			<div class="row">
+		<div id="top" class="container-fluid b_no-padding">
+			<div class="row align-items-center">
 				<div class="col">
-					<img src="img/main-img.jpg" alt="" class="img-fluid">
+					<h1 class="text-center">Internetowy kalkulator<br><small>VAT | Procentowy | Walutowy</small></h1>
 				</div>
 			</div>
 		</div>
 		<div class="container b_select-tabs mb-100">
 			<div class="row justify-content-between">
-				<div class="col">
-					<i class="fas fa-cart-plus fa-2x b_center-icon mb-25"></i>
-					<h3 class="text-center">Kalkulator VAT</h3>
-				</div>
-				<div class="col">
+                <a href="#vat" class="col">
+                    <i class="fas fa-cart-plus fa-2x b_center-icon mb-25"></i>
+                    <h3 class="text-center">Kalkulator VAT</h3>
+                </a>
+				<a href="#procenty" class="col">
 					<i class="fas fa-percent fa-2x b_center-icon mb-25"></i>
 					<h3 class="text-center">Kalkulator Procentów</h3>
-				</div>
-				<div class="col">
+				</a>
+				<a href="#waluty" class="col">
 					<i class="fas fa-dollar-sign fa-2x b_center-icon mb-25"></i>
 					<h3 class="text-center">Kalkulator Walut</h3>
-				</div>
+				</a>
 			</div>
 		</div>
 

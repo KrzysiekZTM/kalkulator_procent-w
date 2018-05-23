@@ -6,10 +6,16 @@ $dark_gray: #070600;
 $red: #EA526F;
 
 $margin-class-slug: mb !default;
+$padding-class-slug: ptop !default;
 
 @for $i from 1 through 100{
 	.#{$margin-class-slug}-#{$i}{
 		margin-bottom: $i
 	}
 }
-	
+
+@for $i from 1 through 100{
+	.#{$padding-class-slug}-#{$i}{
+		padding-top: $i !important;
+	}
+}

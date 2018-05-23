@@ -3,3 +3,10 @@
 	-moz-box-shadow: $y $x $blur $spred $color;
 	box-shadow: $y $x $blur $spred $color;
 }
+
+@mixin rotate($deg){
+	transform: rotate($deg);
+	-webkit-transform: rotate($deg);
+	-moz-transform: rotate($deg);
+	-o-transform: rotate($deg);
+}
